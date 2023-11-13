@@ -12,7 +12,6 @@ const router = createRouter({
             path: '/',
             name: 'home',
             component: Home,
-            
             meta: {
                 title: 'Kezdőlap'
             }
