@@ -2,7 +2,7 @@
     <main>
             <div id="aboutMe" class="flex flex-col sm:flex-row items-center justify-center min-h-[88vh]">
                 <div class="mb-5 ml-5">
-                    <img class="bg-rose-500 a" src="../assets/pngfind.com-hairstyle-transparent-male-png-529874.png" alt="man">
+                    <img class="bg-rose-500 a" src="dist\assets\profile_picture.png" alt="picture of me">
                 </div>
         
                 <div class="flex flex-col items-center justify-center m-auto">
