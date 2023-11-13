@@ -1,3 +1,7 @@
 <template>
-    <h2>404 Not found. The page you are looking for does not exist.</h2>
+  <div class="text-center">
+    <h1 class="text-3xl text-red"> <span class="text-5xl">Ooops!</span> <br> A keresett oldal nem elérhető! </h1>
+    <li class="font-bold text-xl bg-rose-500 p-7 mt-10 m-auto list-none w-fit rounded-md hover:scale-105 cursor-pointer transition-all"><router-link  to="/">Kezdőlap</router-link></li>
+  </div>
+  
   </template>
