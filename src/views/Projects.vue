@@ -18,7 +18,7 @@
     const projects = [
         {
             title: 'Számológép',
-            image: 'profile_picture.png',
+            image: 'calculator.png',
             desc: 'Egy számológép Javascriptben csinálva.',
         }
     ]

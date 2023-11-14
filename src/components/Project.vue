@@ -1,8 +1,8 @@
 <template>
-    <div class="relative hover:scale-105 transition-all cursor-pointer h-80 w-80 p-5 ">
-        <img class="bg-cover rounded-md" :src="getImageUrl()" alt="">
-        <h3 class="absolute left-6 top-5 text-xl font-bold">{{ title }}</h3>
-        <p class="absolute left-6 bottom-9 font-mono backdrop-blur-lg rounded-tr rounded-br w-3/4">{{ desc }}</p>
+    <div class="hover:scale-105 transition-all h-80 w-80 bg-slate-100 rounded-md cursor-pointer">
+        <h3 class=" text-xl font-bold text-center mb-5">{{ title }}</h3>
+        <img class="bg-cover rounded-md h-52 w-52 m-auto" :src="getImageUrl()" alt="">
+        <p class="font-mono text-center rounded-tr rounded-br">{{ desc }}</p>
     </div>
 </template>
 
