@@ -48,7 +48,6 @@ const router = createRouter({
                 hideNavigation: true
             }
         },
-        
     ]
 })
 
