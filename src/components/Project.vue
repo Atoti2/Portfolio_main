@@ -8,15 +8,14 @@
 
 <script setup>
 import {defineProps} from "vue";
-
-     const props =  defineProps({
+    const props =  defineProps({
       title: String,
       image: String,
       desc: String
    })
 
-   function getImageUrl() {
-  return new URL(`../assets/${props.image}`, import.meta.url)
+function getImageUrl() {
+    return new URL(`../assets/${props.image}`, import.meta.url)
 }
 </script>
 <style>

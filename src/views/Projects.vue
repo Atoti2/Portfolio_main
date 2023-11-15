@@ -20,7 +20,7 @@
             title: 'Számológép',
             image: 'calculator.png',
             desc: 'Egy számológép Javascriptben csinálva.',
-        }
+        },
     ]
 </script>
 
